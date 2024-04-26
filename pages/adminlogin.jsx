@@ -3,7 +3,8 @@ import React, { useState,useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import Header from '../component/Header';
+import Header from '@/components/Header';
+
 
 const AdminLogin = () => {
   const router=useRouter()
